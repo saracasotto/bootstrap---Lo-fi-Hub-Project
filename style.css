@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+body{
+    background-image: url(assets/lofi.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    font-family: "Roboto Mono", monospace;}
+
+.navbar {
+    background-color: rgba(235, 135, 235, 0.568);
+    border: solid 3px salmon;
+    vertical-align: center;
+}
+
+.navbar-brand {
+    color: white;
+    font-weight: bolder;
+}
+
+.navbar-brand:hover{
+    color: salmon;
+    font-weight: bolder;
+}
+
+.navbar li a {
+    color: white;
+}
+
+.navbar form .btn {
+    background-color: salmon;
+    color: white;
+}
+
+.navbar form .btn:hover {
+    background-color: plum;
+    color: white;
+}
+
+.card {
+    opacity: 0.9;
+    box-shadow: 0 0 10px 0 salmon;
+}
+
+.card:hover {
+    opacity: 1;
+    box-shadow: 0 0 30px 0 salmon;
+}
+
+.card .card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card .card-body a {
+    text-decoration: none;
+    color: purple;
+    font-weight: bold;   
+}
+
+
+h5 {
+    font-weight: bolder;
+}
+
+h6{
+    font-weight: bold;
+    font-weight: 0.8em;
+}
+
+section .card {
+    margin: 10px;
+    width: 90%;
+}
+
+section .row >* {
+    display: flex;
+    justify-content: center;
+}
